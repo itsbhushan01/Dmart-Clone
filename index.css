@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bor{
+    background-color: rgb(205, 231, 240);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+    
+}
+.dialog-div{
+height: 350px;
+}
+.input-modal{
+    height: 40px;
+}
+.delivery p{
+    font-size: 14px;
+}
+#searchInput{
+    width: 400px;
+    position: relative;
+}
+.animation-placeholder{
+    position: absolute;
+    top: 25%;
+    left: 10px;
+}
+.img-div{
+    background-image: url('./image/auth-background.f7749174.png');
+    width: 30%;
+    height: 500px;
+padding: 0;
+}
+.sign-close{
+    padding-left: 550px;
+}
+.number-input{
+    height: 40px;
+    width: 90%;
+    outline: none;
+    border: none;
+    border-color: lightgrey;
+    box-shadow: 0px 0px 2px rgb(58, 58, 58);
+    border-radius: 5px;
+}
+::placeholder{
+    padding-left: 10px;
+}
+.continue{
+    width: 90%;
+}
+.person{
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 1px;
+}
+
+.open-button{
+    position:absolute;
+    top: 25px;
+    color: green;
+   font-size: 24px;
+   cursor: pointer;
+
+
+}
+.offcanvass{
+  position: fixed;
+    top: 0;
+    right: -500px;
+    width: 500px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.541);
+    transition: 0.3s;
+    padding: 20px;
+    overflow: auto;
+    z-index: 30;
+}
+.offcanvass.active{
+    right: 0;
+    
+}
+.close-button{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+ font-size: 24px;
+    cursor: pointer;
+}
+.close-button:hover{
+    background-color: rgb(78, 78, 78);
+    color: rgb(248, 248, 248);
+    border-radius: 50%;
+    
+}
+.open-buttons{
+  position:absolute;
+  top: 25px;
+  color: green;
+ font-size: 24px;
+ cursor: pointer;
+
+
+}
+.offcanvasss{
+position: fixed;
+  top: 0;
+  right: -500px;
+  width: 500px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.541);
+  transition: 0.3s;
+  padding: 20px;
+  overflow: auto;
+  z-index: 30;
+}
+.offcanvasss.active{
+  right: 0;
+  
+}
+.close-button{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+font-size: 24px;
+  cursor: pointer;
+}
+.close-button:hover{
+  background-color: rgb(78, 78, 78);
+  color: rgb(248, 248, 248);
+  border-radius: 50%;
+  
+}
+
+
+.offcanvass h2{
+    padding-left: 70px;
+}
+.offcanvass-img{
+    height: 60%;
+    margin-left: 50px;
+}
+.shopping{
+    padding: 15px;
+}
+.shopping i{
+    font-size: 24px;
+    color: green;
+}
+.carousel-inner{
+    width: 100%;
+    border:.5px;
+    border-top: .9px solid #d3d3d3;
+  }
+  .nav:hover, .nav2:hover, .nav3:hover, .nav4:hover {
+    text-decoration: underline;
+  }
+   .slider-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    margin-top: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 3px;
+  }
+  .slider-container{
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+  }
+  .slider{
+    display: flex;
+    transition: transform 0.4s ease;
+  }
+  .slides{
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  .arrow{
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    border: 1px solid black;
+    padding: 8px 16px;
+    z-index: 10;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 24px;
+
+  }
+  .left-arrow{
+    left: 10px;
+  }
+  .right-arrow{
+    right: 10px;
+  }
+  .arrow:hover{
+    background-color: lightblue;
+  }
+  .arrow:active{
+    transform: translateY(-50%) scale(0.95);
+  }
+.two-div{
+
+  width: 100%;
+ padding-left: 3%;
+ padding-right: 3%;
+
+}
+.countdown-container{
+ 
+  padding: 10px;
+  width: 40%;
+
+}
+.message{
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: green;
+}
+.list{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 10px;
+}
+.list .item{
+ 
+ padding: 20px;
+ box-shadow: 0px 0px 30px lightgray;
+ letter-spacing: 1px;
+ border-radius: 5px;
+ margin: 10px 15px;
+}
+.list .item .main_image{
+  width: 80%;
+  transition: transform 0.3s;
+  transform: scale(0.9,0.9);
+  overflow: hidden;
+}
+.list .item .main_image:hover{
+  transform: scale(1,1);
+
+}
+.list .item .two_image{
+  position: relative;
+}
+.list .item .veg_image{
+ width: 50px;
+ height: 50px;
+ position: absolute;
+ z-index: 10;
+ right: 0;
+
+}
+.list .item .title{
+  font-weight: 500;
+  color: rgb(85, 85, 85);
+}
+.list .item .three-div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+.list .item .three-div .oldPrice{
+  color: rgb(128, 128, 128);
+}
+.list .item .three-div .oldPrice div:nth-child(2){
+  text-decoration: line-through;
+  color: rgb(128, 128, 128);
+  
+}
+
+.list .item .three-div .newPrice div:first-child{
+  color: rgb(128, 128, 128);
+
+}
+.list .item .three-div .newPrice div:nth-child(2){
+  font-weight: 700;
+
+}
+.list .item .three-div .offer{
+  background-color: rgba(0, 128, 0, 0.281);
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: green;
+  margin-left: 50px;
+}
+.list .item .three-div .offer div:nth-child(1){
+  font-weight: 600;
+}
+.list .item .three-div .offer div:nth-child(2){
+text-align: center;
+}
+.list .item .tax{
+  font-size: 14px;
+  font-style: italic;
+  padding: 0;
+  margin: 0;
+
+}
+.list .item .weight{
+  border: 1px solid rgb(128, 128, 128);
+  padding: 6px;
+  margin-bottom: 4px;
+  margin-top: 0;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.list .item .weight:hover{
+  box-shadow: 1px 1px 6px  rgba(0, 51, 128, 0.582);
+}
+.list .item button{
+  font-size: 18px;
+  font-weight: 400;
+}
+.list .item button:hover{
+  cursor: pointer;
+  background-color: rgb(56, 129, 56);
+
+
+}
+.listCard li{
+  display: grid;
+  grid-template-columns: 100px repeat(3,1fr);
+  row-gap: 10px;
+  margin-bottom: 20px;
+}
+.listCard li div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.listCard img{
+  width: 100%;
+}
+.listCard button{
+  width: auto;
+  padding: 14px;
+  font-weight: 500;
+  border: none;
+  background-color: rgb(201, 91, 91);
+  font-size: 22px;
+  margin: 10px;
+}
+.listCard .count{
+  margin: 0 10px;
+}
+body {
+  margin: 0;
+  height: 200vh;
+  font-family: Arial, sans-serif;
+}
+body::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Background color of the scrollbar track */
+}
+
+body::-webkit-scrollbar-thumb {
+  background: green; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Rounded corners */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: darkgreen; /* Darker green on hover */
+}
+
+
+body {
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: green #f0f0f0; /* Thumb and track colors */
+}
+
+@media (max-width:'768px') {
+    
+}
+@media (max-width:'1200px') {
+  
+   
+    
+}
